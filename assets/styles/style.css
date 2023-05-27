@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e8e8e8;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+}
+
+.navbar img {
+    float: left;
+    padding: 14px 16px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
